@@ -11,10 +11,18 @@ import localeEs from '@angular/common/locales/es';
 registerLocaleData(localeEs, 'es');
 
 import { AppComponent } from './app.component';
+import { LoginComponent } from './views/login/login.component';
+import { SurveyComponent } from './views/survey/survey.component';
+import { RegisterComponent } from './views/register/register.component';
+import { HomeComponent } from './views/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    SurveyComponent,
+    RegisterComponent,
+    HomeComponent
   ],
   imports: [
     AppRoutingModule,
