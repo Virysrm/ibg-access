@@ -18,6 +18,7 @@ import { ParticipantsComponent } from './views/participants/participants.compone
 import { NotFoundComponent } from './views/not-found/not-found.component';
 import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { HeaderComponent } from './components/header/header.component';
+import { StatsComponent } from './views/stats/stats.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HeaderComponent } from './components/header/header.component';
     ParticipantsComponent,
     NotFoundComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    StatsComponent
   ],
   imports: [
     AppRoutingModule,
