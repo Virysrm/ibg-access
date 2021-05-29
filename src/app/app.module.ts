@@ -14,9 +14,9 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './views/login/login.component';
 import { SurveyComponent } from './views/survey/survey.component';
 import { RegisterComponent } from './views/register/register.component';
-import { HomeComponent } from './views/home/home.component';
 import { ParticipantsComponent } from './views/participants/participants.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
+import { DashboardComponent } from './views/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +24,9 @@ import { NotFoundComponent } from './views/not-found/not-found.component';
     LoginComponent,
     SurveyComponent,
     RegisterComponent,
-    HomeComponent,
     ParticipantsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    DashboardComponent
   ],
   imports: [
     AppRoutingModule,
