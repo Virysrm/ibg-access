@@ -15,6 +15,7 @@ import { LoginComponent } from './views/login/login.component';
 import { SurveyComponent } from './views/survey/survey.component';
 import { RegisterComponent } from './views/register/register.component';
 import { HomeComponent } from './views/home/home.component';
+import { ParticipantsComponent } from './views/participants/participants.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './views/home/home.component';
     LoginComponent,
     SurveyComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    ParticipantsComponent
   ],
   imports: [
     AppRoutingModule,
