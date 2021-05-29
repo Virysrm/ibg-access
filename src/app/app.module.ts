@@ -1,11 +1,12 @@
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
+import { ChartsModule } from 'ng2-charts';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxBootstrapModule } from './externalModules/ngx-bootstrap.module';
 import { NgModule, LOCALE_ID } from '@angular/core';
-import { registerLocaleData } from '@angular/common'
+import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 
 registerLocaleData(localeEs, 'es');
@@ -36,6 +37,7 @@ import { StatsComponent } from './views/stats/stats.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
+    ChartsModule,
     FormsModule,
     HttpClientModule,
     NgxBootstrapModule,
