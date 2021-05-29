@@ -16,6 +16,7 @@ import { SurveyComponent } from './views/survey/survey.component';
 import { RegisterComponent } from './views/register/register.component';
 import { HomeComponent } from './views/home/home.component';
 import { ParticipantsComponent } from './views/participants/participants.component';
+import { NotFoundComponent } from './views/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ParticipantsComponent } from './views/participants/participants.compone
     SurveyComponent,
     RegisterComponent,
     HomeComponent,
-    ParticipantsComponent
+    ParticipantsComponent,
+    NotFoundComponent
   ],
   imports: [
     AppRoutingModule,
