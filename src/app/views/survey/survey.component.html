@@ -1,1 +1,89 @@
-<p>survey works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+
+        <div class="card-header">Encuesta preventiva a: &nbsp; <strong>Nombre de usuario</strong></div>
+
+        <form class="card-body">
+
+          <div class="form-group">
+            <label class="form-label d-block">
+              <strong>1.</strong> ¿Ha presentado tos, dolor de garganta, dolor torácico, conjuntivitis, diarrea, falta
+              de olfato, malestar general y/o dificultad respiratoria en los últimos 14 días?
+            </label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="uno" id="1si">
+              <label class="form-check-label" for="1si">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="uno" id="1no" checked>
+              <label class="form-check-label" for="1no">No</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label d-block">
+              <strong>2.</strong> ¿Ha presentado fiebre (temperatura de más de 38ºC) en las últimas 24 horas?
+            </label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="dos" id="2si">
+              <label class="form-check-label" for="2si">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="dos" id="2no" checked>
+              <label class="form-check-label" for="2no">No</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label d-block">
+              <strong>3.</strong> ¿Ha tenido contacto cercano (menos de 1.5mts. por al menos 15 minutos con alguna
+              persona confirmada o sospechosa de COVID-19?
+            </label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="tres" id="3si">
+              <label class="form-check-label" for="3si">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="tres" id="3no" checked>
+              <label class="form-check-label" for="3no">No</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label d-block">
+              <strong>4.</strong> ¿Le han indicado aislamiento en domicilio durante los últimos 14 días por alguna
+              Institución/Médico de salud pública o privada?
+            </label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="cuatro" id="4si">
+              <label class="form-check-label" for="4si">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="cuatro" id="4no" checked>
+              <label class="form-check-label" for="4no">No</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label d-block">
+              <strong>5.</strong> ¿Ha sido vacunado contra el COVID-19?
+            </label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="cinco" id="5si">
+              <label class="form-check-label" for="5si">Sí</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="cinco" id="5no" checked>
+              <label class="form-check-label" for="5no">No</label>
+            </div>
+          </div>
+
+          <button type="submit" [routerLink]="['/dashboard/participantes']" class="btn btn-primary mx-auto d-block">Enviar</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

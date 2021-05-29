@@ -126,6 +126,12 @@ select.form-control {
   }
 }
 
+input.date-control,
+textarea.date-control {
+  cursor: pointer;
+  caret-color: transparent;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -136,7 +142,9 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-.custom-control-label {
+.custom-control-label,
+.form-check-label,
+.form-check-input {
   cursor: pointer;
 }
 
@@ -159,4 +167,8 @@ div.form-group {
     -o-cursor: default;
     cursor: default;
   }
+}
+
+.mh-100vh {
+  min-height: 100vh;
 }

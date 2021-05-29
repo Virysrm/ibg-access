@@ -1,1 +1,35 @@
-<p>participants works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="table-responsive">
+        <table class="table table-striped table-hover text-center text-nowrap">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Apellidos</th>
+              <th scope="col">Grupo</th>
+              <th scope="col">#Visitas</th>
+              <th scope="col">Encuesta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Eduardo</td>
+              <td>Suárez de la Cruz</td>
+              <td>Alfa y Omega</td>
+              <td>0</td>
+              <td class="survey"><a class="btn btn-primary" [routerLink]="['/dashboard/encuesta', 'asdf5564adfs']">Crear</a></td>
+            </tr>
+            <tr>
+              <td>Edith</td>
+              <td>de la Cruz Sánchez</td>
+              <td>Alfa y Omega</td>
+              <td>2</td>
+              <td class="survey"><a class="btn btn-warning" [routerLink]="['/dashboard/encuesta', 'sklgsd97756d']">Actualizar</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
 
+  public datePickerConfig = {
+    dateInputFormat: 'DD-MMMM-YYYY',
+    showWeekNumbers: false
+  }
+
   constructor() { }
 
   ngOnInit(): void {
