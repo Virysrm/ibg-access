@@ -1,4 +1,5 @@
 import { AppRoutingModule } from './app-routing.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { ChartsModule } from 'ng2-charts';
@@ -42,6 +43,7 @@ import { StatsComponent } from './views/stats/stats.component';
     HttpClientModule,
     NgxBootstrapModule,
     ReactiveFormsModule,
+    FontAwesomeModule,
   ],
   entryComponents: [],
   providers: [
