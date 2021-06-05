@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row justify-content-center align-items-center mh-100vh">
     
-    <nav class="navbar navbar-expand-sm">    
-      <a class="navbar-brand" >
-        <img src="/assets/images/Logo2.png" alt="IBG">
+    <nav class="navbar navbar-expand-sm justify-content-center">    
+      <a class="navbar-brand">
+        <img src="/assets/images/Logo2.jpg" alt="IBG">
       </a>
     </nav>    
 
@@ -15,7 +15,7 @@
       <div class="container">
         <div class="row">
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 py-0">
 
           <div class="row">
             <div class="col-md-12">
@@ -27,20 +27,18 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-6 py-0">
               <div class="info-box">
                 <fa-icon class="bx" [icon]="faUser"></fa-icon>
-                <h3>Evita que asistan adultos mayores 
-                  <br>y niños</h3>
-                  <p>Se recibirán personas a partir <br>de 13 años en adelante</p>
+                <h3>Evita que asistan <br> adultos mayores <br> y niños</h3>
+                  <p>Se recibirán personas a partir de 13 hasta 65 años de edad.</p>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-6 py-0">
               <div class="info-box">
                 <fa-icon class="bx" [icon]="faHouseUser"></fa-icon>
                 <h3>El cupo es limitado</h3>
-                <p>No se podrá recibir a más personas de las que se<br>hayan registrado</p>
-                <br>
+                <p>No se podrá recibir a más personas de las que se hayan registrado <br><br></p>
               </div>
             </div>
           </div>
@@ -57,29 +55,29 @@
             <form class="card-body">
               <div class="row">
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 col-md-6 py-0">
                   <label class="form-label" for="nombre">Nombre(s)</label>
-                  <input type="text" class="form-control"  style="color: #777;" id="nombre" autocomplete="off" autofocus required>
+                  <input type="text" class="form-control" id="nombre" autocomplete="off" autofocus required>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 col-md-6 py-0">
                   <label class="form-label" for="apellidos">Apellidos</label>
-                  <input type="text" class="form-control"  style="color: #777;" id="apellidos" autocomplete="off">
+                  <input type="text" class="form-control" id="apellidos" autocomplete="off">
                 </div>
 
                 <div class="form-group col-12 col-md-6 py-0">
-                  <label class="form-label" for="gCuidado">Grupo de cuidado al que pertence</label>
+                  <label class="form-label" for="gCuidado">Grupo de cuidado</label>
                   <select class="form-select" id="gCuidado">
-                    <option selected value="" style="color: #777;" disabled>Seleccione...</option>
+                    <option selected value="" disabled>Seleccione...</option>
                     <option value="Alfa y Omega">Alfa y Omega</option>
                     <option value="Solidaridad">Solidaridad</option>
                     <option value="Portal">Portal</option>
                   </select>
                 </div>
 
-                <div class="form-group col-12 col-md-6 py-0"><br>
+                <div class="form-group col-12 col-md-6 py-0">
                   <label class="form-label" for="fechaNac">Fecha de nacimiento</label>
-                  <input class="form-control date-control"  style="color: #777;" id="fechaNac" placeholder="Seleccione" bsDatepicker autocomplete="off" [bsConfig]="datePickerConfig">
+                  <input class="form-control date-control" id="fechaNac" bsDatepicker autocomplete="off" [bsConfig]="datePickerConfig">
                 </div>
 
               </div>

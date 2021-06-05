@@ -1,13 +1,53 @@
 <div class="container">
   <div class="row">
+
+    <div class="section-title">
+      <h2>Lista de Personas Registradas</h2>
+    </div>
+
     <div class="col-12">
       <div class="table-responsive">
+
+        <div class="col-lg-6 col-md-6 py-0">
+          <div class="row">
+            <div class="col-6 col-md-6 col-lg-4">
+              <div class="form-group  busqueda mb-0 ng-untouched ng-pristine ng-valid">
+                <label for="search" class="form-label">Búsqueda por Nombre</label>
+                <input type="search" id="search" autocomplete="off" formcontrolname="nombre" class="form-control ng-untouched ng-pristine ng-valid">
+                
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-8">
+            <table class="table table-acot text-nowrap text-center acotaciones">
+              <caption class="text-center">Acotaciones por Pregunta</caption>
+              <tr>
+                <th>Sintomas</th>
+                <th>Fiebre</th>
+                <th>Contacto</th>
+                <th>Aislamiento</th>
+                <th>Vacuna</th>
+              </tr>
+              <tr>
+                <td class="td1">Si</td>
+                <td class="td2">Si</td>
+                <td class="td3">Si</td>
+                <td class="td4">Si</td>
+                <td class="td5">Si</td>
+              </tr>
+              </table>
+            </div>
+
+          </div>
+        </div>
+
         <table class="table table-striped table-hover text-center text-nowrap">
-          <thead class="table-dark">
+          <thead class="table-title">
             <tr>
-              <th scope="col">Nombre</th>
+              <th scope="col">Nombre(s)</th>
               <th scope="col">Apellidos</th>
-              <th scope="col">Grupo</th>
+              <th scope="col">Grupo de Cuidado</th>
+              <th scope="col">Edad</th>
               <th scope="col">#Visitas</th>
               <th scope="col">Encuesta</th>
             </tr>
@@ -18,6 +58,7 @@
               <td>Suárez de la Cruz</td>
               <td>Alfa y Omega</td>
               <td>0</td>
+              <td>0</td>
               <td class="survey"><a class="btn btn-primary" [routerLink]="['/dashboard/encuesta', 'asdf5564adfs']">Crear</a></td>
             </tr>
             <tr>
@@ -25,6 +66,7 @@
               <td>de la Cruz Sánchez</td>
               <td>Alfa y Omega</td>
               <td>2</td>
+              <td>0</td>
               <td class="survey"><a class="btn btn-warning" [routerLink]="['/dashboard/encuesta', 'sklgsd97756d']">Actualizar</a></td>
             </tr>
           </tbody>

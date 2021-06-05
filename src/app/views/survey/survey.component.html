@@ -1,9 +1,12 @@
 <div class="container">
   <div class="row">
+
+    <div class="section-title">
+      <h2>Nombre de usuario</h2>
+    </div>
+
     <div class="col-12">
       <div class="card">
-
-        <div class="card-header">Encuesta preventiva a: &nbsp; <strong>Nombre de usuario</strong></div>
 
         <form class="card-body">
 
@@ -78,6 +81,20 @@
               <input class="form-check-input" type="radio" name="cinco" id="5no" checked>
               <label class="form-check-label" for="5no">No</label>
             </div>
+          </div>
+
+          <div class="form-group col-lg-2">
+            <label class="form-label d-block">
+              <strong>6.</strong> Oxigenación
+            </label>
+              <input type="text" class="form-control" id="oxigenacion">
+          </div>
+
+          <div class="form-group col-lg-2">
+            <label class="form-label d-block">
+              <strong>7.</strong> Temperatura
+            </label>
+              <input type="text" class="form-control" id="temperatura">
           </div>
 
           <button type="submit" [routerLink]="['/dashboard/participantes']" class="btn btn-primary mx-auto d-block">Enviar</button>
